@@ -693,10 +693,16 @@ textarea.input {
     grid-template-columns: 1fr;
   }
 .input {
-    width: 93%;
+    width: 87%;
+}
+.flexContainer h3, .flexContainer p {
+  font-size:12px;
 }
 .container {
     width: 88%;
+}
+.title{
+	text-align:center;
 }
   .contact-info:before {
     bottom: initial;
@@ -731,7 +737,7 @@ textarea.input {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .container {
     padding: 1.5rem;
   }
@@ -777,4 +783,9 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
+  .mySkills {
+	      padding: 40px;
+    margin-top: 50px;
+  }
 }
+
