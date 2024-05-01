@@ -8,7 +8,9 @@
   text-decoration: none;
   color: #0c0b0b;
 }
-
+body{
+	margin:0px;
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -280,12 +282,12 @@ p {
 	.project h4{
 		        text-align: center;
 	}
-	.project  a {
-	     margin: auto !important;
-         display: flex;
-		 margin-bottom: 10px !important;
-
-	}
+.project  a {
+    margin: auto !important;
+    display: flex;
+    margin-bottom: 10px !important;
+    width: 84px;
+}
 	.project p{
 		text-align:center;
 	}
@@ -371,10 +373,12 @@ footer ul {
     }
   
     /* Make all flex children take up 100% width of their container */
-    .flexContainer div {
-      width: 100%;
-    }
-  
+  .flexContainer div {
+    width: 81%;
+}
+  body {
+    margin: 8px;
+}
     /* Adjusting the grid container for mobile devices */
     .workGrid {
       grid-template-columns: 1fr; /* Single column layout */
