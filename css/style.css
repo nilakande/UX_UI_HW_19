@@ -693,7 +693,7 @@ textarea.input {
     grid-template-columns: 1fr;
   }
 .input {
-    width: 87%;
+    width: 84%;
 }
 .flexContainer h3, .flexContainer p {
   font-size:12px;
@@ -737,15 +737,22 @@ textarea.input {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .container {
     padding: 1.5rem;
   }
-
+.btnResume{
+	margin-top:30px;
+}
+.button-container{
+	margin-top:30px;
+}
   .contact-info:before {
     display: none;
   }
-
+.mySkills{
+margin-top:2100px;	
+}
   .square,
   .big-circle {
     display: none;
@@ -784,8 +791,11 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
   .mySkills {
-	      padding: 40px;
-    margin-top: 50px;
+	padding: 40px;
+    margin-top: 134px;
+  }
+  #about{
+	  margin-bottom:40px;
   }
 }
 
