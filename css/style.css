@@ -86,7 +86,7 @@ nav li:hover {
 .heroImg p{
 	 text-align: center;
     overflow-wrap: break-word;
-    font-family: 'Comfortaa';
+    /* font-family: 'Comfortaa'; */
 }
 #typed {
   color: #3498db;
@@ -187,6 +187,7 @@ p {
 /* My UX Skills section coded using CSS flex */
 .mySkills {
     padding: 20px; /* Adds padding around the section for spacing */
+    margin-top:30px;
     /* background-color: #f0f0f0;  */
   }
 .mySkills h1 {
@@ -322,7 +323,7 @@ footer ul {
   .project.image1 { grid-area: image1; display: flex;justify-content: center;align-items: center;}
   .project.details1 { grid-area: details1; }
   .project.image2 { grid-area: image2; display: flex;justify-content: center;align-items: center;}
-  .project.details2 { grid-area: details2;     padding: 20px;}
+  .project.details2 { grid-area: details2;     padding-bottom: 20px;}
   /*addeed one more project*/
   .project.image3 { grid-area: image1; display: flex;justify-content: center;align-items: center;}
   .project.details3 { grid-area: details1; }
@@ -342,7 +343,7 @@ footer ul {
     color: white;
     border: none;
     cursor: pointer;
-    margin: 0px 24px;
+    margin: 0px 20px;
     font-size: 14px;
     font-weight: 600;
     border-radius: 5px;
@@ -683,7 +684,7 @@ textarea.input {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #1cd4af, #159b80);
+    /* background: linear-gradient(to bottom, #1cd4af, #159b80); */
     bottom: 50%;
     right: 50%;
     transform: translate(-28%, 38%);

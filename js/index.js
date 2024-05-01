@@ -24,7 +24,7 @@ $(document).ready(function(){
     });
   });
   var options = {
-    strings: ['Hello, I’m Nischala.', 'I’m a UI/UX Designer.','I’m a Graphic Designer.','I’m a Web Developer', 'Welcome to My Portfolio.'],
+    strings: ['Hello, I’m Nischala', 'I’m a UI/UX Designer','I’m a Graphic Designer','I’m a Web Developer', 'Welcome to My Portfolio'],
     typeSpeed: 40,
     backSpeed: 50,
     loop: true,
